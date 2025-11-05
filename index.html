@@ -4,73 +4,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Biografías — Deportistas españoles (3º ESO)</title>
-  <meta name="description" content="Web de clase con las biografías de los deportistas españoles más influyentes.">
+  <meta name="description" content="Proyecto de clase: biografías de deportistas españoles más influyentes, elaboradas por los alumnos de 3º ESO.">
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
   <header>
-    <h1>Biografías de deportistas españoles — 3º ESO (Computación y Robótica)</h1>
-    <p style="text-align:center; margin: 0 40px;">Proyecto de clase: cada pareja ha creado una página con la biografía de un deportista. Pulsa en el enlace de la derecha para ver su trabajo.</p>
+    <h1>Biografías de deportistas españoles</h1>
+    <p style="text-align:center; margin:0 40px;">
+      Proyecto de 3º ESO — Computación y Robótica<br>
+      Cada pareja ha creado una página dedicada a un deportista español influyente en su disciplina.
+    </p>
     <hr>
   </header>
 
   <main>
-    <section>
-      <h2>Índice de deportistas</h2>
-      <p>Haz clic en el enlace correspondiente para abrir la página creada por la pareja.</p>
+    <section class="contenedor-tarjetas">
 
-      <!-- Tabla con los enlaces a las páginas de los alumnos.
-           Rellena las filas con el deporte, el deportista, la pareja y la URL del archivo HTML. -->
-      <table>
-        <thead>
-          <tr>
-            <th>Deporte</th>
-            <th>Deportista</th>
-            <th>Pareja</th>
-            <th>Enlace</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Ejemplo: copia la fila y edita los datos -->
-          <tr>
-            <td>Fútbol</td>
-            <td>Andrés Iniesta</td>
-            <td>Alba Pérez / Juan López</td>
-            <td><a href="iniesta_alba_juan.html" target="_blank" rel="noopener">Ver página</a></td>
-          </tr>
+      <!-- EJEMPLOS DE TARJETAS - DUPLICA Y MODIFICA -->
+      <div class="tarjeta">
+        <img src="img/nadal.jpg" alt="Rafael Nadal">
+        <div class="contenido">
+          <h3>Rafael Nadal</h3>
+          <p><b>Deporte:</b> Tenis</p>
+          <p><b>Pareja:</b> María Gómez / Carlos Ruiz</p>
+          <a href="nadal_maria_carlos.html" target="_blank" rel="noopener">Ver biografía</a>
+        </div>
+      </div>
 
-          <tr>
-            <td>Tenis</td>
-            <td>Rafael Nadal</td>
-            <td>María Gómez / Carlos Ruiz</td>
-            <td><a href="nadal_maria_carlos.html" target="_blank" rel="noopener">Ver página</a></td>
-          </tr>
+      <div class="tarjeta">
+        <img src="img/iniesta.jpg" alt="Andrés Iniesta">
+        <div class="contenido">
+          <h3>Andrés Iniesta</h3>
+          <p><b>Deporte:</b> Fútbol</p>
+          <p><b>Pareja:</b> Alba Pérez / Juan López</p>
+          <a href="iniesta_alba_juan.html" target="_blank" rel="noopener">Ver biografía</a>
+        </div>
+      </div>
 
-          <!-- FILA-PLANTILLA: duplicar y editar -->
-          <!--
-          <tr>
-            <td>Deporte</td>
-            <td>Nombre Deportista</td>
-            <td>Alumno A / Alumno B</td>
-            <td><a href="archivo_de_la_pareja.html" target="_blank" rel="noopener">Ver página</a></td>
-          </tr>
-          -->
-        </tbody>
-      </table>
+      <div class="tarjeta">
+        <img src="img/onaldo.jpg" alt="Carolina Marín">
+        <div class="contenido">
+          <h3>Carolina Marín</h3>
+          <p><b>Deporte:</b> Bádminton</p>
+          <p><b>Pareja:</b> Ana Torres / Pablo Sánchez</p>
+          <a href="marin_ana_pablo.html" target="_blank" rel="noopener">Ver biografía</a>
+        </div>
+      </div>
 
-      <hr>
+      <!-- PLANTILLA PARA DUPLICAR -->
+      <!--
+      <div class="tarjeta">
+        <img src="img/nombre.jpg" alt="Nombre del deportista">
+        <div class="contenido">
+          <h3>Nombre del deportista</h3>
+          <p><b>Deporte:</b> ...</p>
+          <p><b>Pareja:</b> ... / ...</p>
+          <a href="archivo.html" target="_blank" rel="noopener">Ver biografía</a>
+        </div>
+      </div>
+      -->
 
-      <h2>Instrucciones para subir enlaces</h2>
-      <ul>
-        <li>Guarda cada página de la pareja en la misma carpeta que este `index.html` o ajusta la ruta en la columna "Enlace".</li>
-        <li>Los nombres de archivo deben ir en minúsculas y sin espacios (ej.: <code>apellido1_apellido2.html</code>).</li>
-        <li>Comprueba que las imágenes y la hoja <code>estilos.css</code> estén en la carpeta o en rutas accesibles.</li>
-      </ul>
     </section>
   </main>
 
   <footer>
-    <p>Profesor: __________________ | Asignatura: Computación y Robótica — 3º ESO | Fecha: __________</p>
+    <p>Materia: Computación y Robótica — 3º ESO | Fecha: 5 de noviembre de 2025</p>
   </footer>
 </body>
 </html>

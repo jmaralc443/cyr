@@ -115,3 +115,63 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
+/* --- ESTILOS OPCIONALES ESPECÍFICOS PARA LAS TARJETAS --- */
+    .contenedor-tarjetas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tarjeta {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      overflow: hidden;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .tarjeta:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    }
+
+    .tarjeta img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .tarjeta .contenido {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .tarjeta h3 {
+      margin: 10px 0 5px;
+      color: #004aad;
+    }
+
+    .tarjeta p {
+      margin: 5px 0;
+      font-size: 0.9em;
+      color: #444;
+    }
+
+    .tarjeta a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 6px 12px;
+      background-color: #004aad;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .tarjeta a:hover {
+      background-color: #ff6600;
+    }
