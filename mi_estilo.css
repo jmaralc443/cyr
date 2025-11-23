@@ -1,10 +1,17 @@
 body {
   background-color: #ADD8E6;
-  font-color:#87CEEB;
-}
+  font-color:#87CEEB;			
+}					<!-- Los colores son así para poner otros aparte de los básicos  -->
 
 
 p {
   color: #666666;
  
+}
+h1 {
+  text-decoration: underline;
+}						<!-- Así se pone en CSS para subrayar : underline-->
+
+
+b{ font color :#004aad;
 }
